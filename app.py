@@ -77,4 +77,4 @@ if df:
         st.pyplot(fig)
             
         
-    st.write(df['Units Sold'].groupby(df['Product Category']).value_counts().reset_index())
+    # st.write(df['Units Sold'].groupby(df['Product Category']).value_counts().reset_index())
